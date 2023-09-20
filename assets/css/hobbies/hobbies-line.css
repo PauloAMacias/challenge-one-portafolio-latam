@@ -1,0 +1,46 @@
+.hobbies__line{
+    display:flex;
+    justify-content: space-between;
+    gap:1rem;
+}
+
+.hobbies__box{
+    position:relative;
+    width: 11rem;
+    height: 11rem;
+    background-color: white;
+    padding:1rem;
+}
+
+.hobbies__box ul{
+    position:absolute;
+    bottom:1rem;
+
+}
+.hobbies__name{
+    font-weight: bold;
+    margin-top:0.5rem;
+}
+
+@media (max-width:1180px) {
+    .hobbies__line{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .hobbies__box{
+    
+        height: 7rem;
+    
+    }
+}
+
+@media (max-width:425px){
+    .hobbies__line{
+        gap:1rem;
+    }
+    .hobbies__box{
+
+        margin:0;
+
+    }
+}

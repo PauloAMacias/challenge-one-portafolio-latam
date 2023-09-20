@@ -1,0 +1,7 @@
+.about{
+    display:flex;
+    padding: 2rem;
+    background-color: var(--azul-10);
+    justify-content: center;
+
+}

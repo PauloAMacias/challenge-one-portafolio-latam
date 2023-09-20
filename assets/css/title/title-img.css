@@ -1,0 +1,21 @@
+.title__profile{
+    width: 15rem;
+    border-radius:50%;
+}
+
+
+
+@media (max-width: 768px) {
+    .title__profile{
+        width: 9.125rem;
+
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .title__profile{
+        width: 6rem;
+
+    }
+}

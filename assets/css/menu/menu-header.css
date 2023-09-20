@@ -1,0 +1,16 @@
+.menu__header img {
+   height: 1rem;
+}
+
+@media (max-width: 425px){
+   .menu__header img {
+       height: 0.8rem;
+   }
+   .menu__title{
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+   }
+ 
+}

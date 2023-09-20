@@ -1,0 +1,47 @@
+.skills__line{
+    display:flex;
+    justify-content: space-between;
+    gap:1rem;
+    max-width: 1136px;
+}
+
+.skills__box{
+    position:relative;
+    width: 11rem;
+    height: 11rem;
+    background-color: white;
+    padding:1rem;
+}
+
+.skills__box ul{
+    position:absolute;
+    bottom:1rem;
+
+}
+.skills__name{
+    font-weight: bold;
+}
+
+
+@media (max-width:1180px) {
+    .skills__line{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .skills__box{
+
+        height: 7rem;
+    
+    }
+}
+
+@media (max-width:425px){
+    .skills__line{
+        gap:1rem;
+    }
+    .skills__box{
+
+        margin:0;
+
+    }
+}

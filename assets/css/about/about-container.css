@@ -1,0 +1,43 @@
+.about__container{
+
+    display:flex;
+    flex-direction: column;
+
+    max-width: 1136px
+    
+}
+
+.about__container img{
+    width: 8rem;
+
+}
+
+.about__title{
+    font-size:2rem;
+    color: var(--color-titulo); 
+    padding-bottom: 1rem;
+
+}
+
+.about__paragraph{
+    display:flex;
+    font-size:1rem;
+    padding-bottom: 1rem;
+
+}
+
+@media (max-width:768px){
+    .about__container{
+        width: 100%;
+    }
+    .about__title{
+        font-size: 1.5rem;
+
+    }
+    .title__network__item{
+        font-size: 0.9rem;
+    }
+    .about__paragraph{
+        font-size:1rem;
+    }
+}
